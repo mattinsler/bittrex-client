@@ -1,25 +1,24 @@
 {
   "name": "bittrex-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
-  "main": "lib/bittrex-client.js",
-  "typings": "lib/bittrex-client",
-  "files": [
-    "lib"
-  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "ts-pub build"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
   "dependencies": {
-    "decimal.js": "7.2.1",
-    "got": "7.0.0"
+    "decimal.js": "7.2.3",
+    "got": "7.1.0"
   },
   "devDependencies": {
     "@types/decimal.js": "0.0.30",
-    "@types/node": "7.0.27",
-    "typescript": "2.3.4"
+    "@types/node": "8.0.7",
+    "ts-node": "3.1.0",
+    "ts-pub": "0.0.4",
+    "typescript": "2.4.1"
   }
 }

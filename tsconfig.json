@@ -4,12 +4,11 @@
     "target": "es2015",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "lib",
     "typeRoots": [
       "node_modules/@types"
     ]
   },
   "files": [
-    "src/bittrex-client.ts"
+    "src/index.ts"
   ]
 }
