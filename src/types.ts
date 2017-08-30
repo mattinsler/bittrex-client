@@ -101,7 +101,7 @@ declare namespace Bittrex {
     QuantityRemaining: Decimal; // 100000.00000000
     Commission: Decimal; // 0.00000000
     Price: Decimal; // 0.00000000
-    PricePerUnit: null; // null
+    PricePerUnit: Decimal; // 0.00000000
     IsConditional: boolean; // false
     Condition: null; // null
     ConditionTarget: null; // null
